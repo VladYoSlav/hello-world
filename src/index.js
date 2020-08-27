@@ -10,7 +10,7 @@ bridge.send("VKWebAppInit");
 
 bridge.sendPromise('VKWebAppGetCommunityAuthToken', {
     "app_id": 7427444, // id вашего свежесозданного mini App
-    "group_id": 195185891,  // id группы, где вы админ, куда виджет
+    "group_id": 163689249,  // id группы, где вы админ, куда виджет
     "scope": "app_widget"
   })
   .then(data => {
